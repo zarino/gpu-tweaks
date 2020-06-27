@@ -1,0 +1,9 @@
+[Unit]
+Description=gpu-tweaks
+
+[Service]
+Type=simple
+ExecStart=/usr/local/src/gpu-tweaks/on-startup.sh
+
+[Install]
+WantedBy=multi-user.target
